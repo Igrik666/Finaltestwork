@@ -4,6 +4,9 @@
 При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 Примеры:
-[“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
-[“1234”, “1567”, “-2”, “computer science”] → [“-2”]
-[“Russia”, “Denmark”, “Kazan”] → []*/
+["Hello", "2", "world", ":-)"] → ["2", ":-)"]
+["1234", "1567", "-2", "computer science"] → ["-2"]
+["Russia", "Denmark", "Kazan"] → []*/
+
+string[] array1 = new string[11] {"Hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "Russia", "Denmark", "Kazan"};
+string[] array2 = new string[array1.Length];
